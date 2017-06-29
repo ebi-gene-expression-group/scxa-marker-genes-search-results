@@ -1,3 +1,3 @@
-import MyComponent from './MyComponentww.js'
+import MarkerGenesList from './MyComponentww.js'
 
-export default MyComponent
+export default MarkerGenesList

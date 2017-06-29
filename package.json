@@ -1,7 +1,7 @@
 {
-  "name": "atlas-package",
+  "name": "atlas-marker-genes-search-results",
   "version": "0.0.1",
-  "description": "",
+  "description": "Display results retrieved from Single Cell Atlas marker genes endpoint",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "Apache-2.0",
-  "repository": "https://github.com/gxa/atlas-package",
+  "repository": "https://github.com/gxa/atlas-marker-genes-search-results",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.6.1",

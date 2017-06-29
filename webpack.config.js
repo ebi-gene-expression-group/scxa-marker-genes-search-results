@@ -6,7 +6,7 @@ process.traceDeprecation = true;
 
 module.exports = {
     entry: {
-        myComponent: ['whatwg-fetch', './html/render.js'],
+        markerGenesSearchResults: ['whatwg-fetch', './html/render.js'],
         dependencies: ['prop-types', 'react', 'react-dom', 'urijs']
     },
 
