@@ -1,6 +1,6 @@
 {
   "name": "atlas-marker-genes-search-results",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Display results retrieved from Single Cell Atlas marker genes endpoint",
   "main": "lib/index.js",
   "scripts": {
