@@ -14,9 +14,11 @@ const MarkerGenesList = (props) => {
     if (markerGeneFetch.fulfilled) {
       return (
         <div className={`row`}>
-          { markerGeneFetch.value.length > 0 ?
-            markerGeneFetch.value.map((e) => <MarkerGeneProfile {...e}/>) :
-            <p>{props.geneId} </p> }
+          <div className={`small-12 columns`}>
+            { markerGeneFetch.value.length > 0 ?
+              markerGeneFetch.value.map((e) => <div className={`column row`}><MarkerGeneProfile key={e.url} {...e}/></div>) :
+              <p>{props.geneId} could not be found as a marker gene in any experiments.</p> }
+          </div>
         </div>
       )
     } else if (markerGeneFetch.pending) {
