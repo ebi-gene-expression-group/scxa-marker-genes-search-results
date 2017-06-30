@@ -1,3 +1,3 @@
-import MarkerGenesList from './MarkerGenesList.js'
+import MarkerGeneSearchResults from './MarkerGeneSearchResults.js'
 
-export default MarkerGenesList
+export default MarkerGeneSearchResults
