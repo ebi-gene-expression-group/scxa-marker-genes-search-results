@@ -4,8 +4,8 @@
   "description": "Display results retrieved from Single Cell Atlas marker genes endpoint",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "prepublish": "npm run build"
+    "dist": "NODE_ENV=production webpack --optimize-minimize",
+    "prepublishOnly": "rm -rf lib && babel src -d lib --copy-files"
   },
   "author": "",
   "license": "Apache-2.0",
