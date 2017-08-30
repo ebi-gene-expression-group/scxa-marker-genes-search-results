@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 
 const MarkerGeneProfile = (props) =>
 <div>
-  <a href={props.url}>{props.experimentAccession} – {props.perplexity}</a>
+  <a href={props.url}>{props.experimentAccession} – {props.k}</a>
 </div>
 
 MarkerGeneProfile.propTypes = {
   experimentAccession: PropTypes.string.isRequired,
-  perplexity: PropTypes.number.isRequired,
+  k: PropTypes.number.isRequired,
   clusters: PropTypes.arrayOf(PropTypes.shape({
     clusterId: PropTypes.number.isRequired,
     p: PropTypes.number.isRequired
